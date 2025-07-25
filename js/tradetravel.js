@@ -1,5 +1,5 @@
 
-const words = ["FACE", "INST", "TWIT", "YTUB", "LINK", "MAIL", "FAIL", "BOOM", "PLUM", "DOOM", "ZSRR", "SNAX", "404S", "MODE", "SALT", "CHAM", "SPYX", "GLIT"];
+const words = ["FACEB", "INSTA", "TWITT", "YTUBE", "TIKTK", "LINKI", "SIGMA", "SNAIL", "DUBLE", "BOOOM"];
 const cubes = document.querySelectorAll('.glitch-cube');
 
 // Preload glitch sound
@@ -12,7 +12,7 @@ function rotateRandom() {
   glitchSound.play();
 
   cubes.forEach((cube, i) => {
-    if (i >= word.length || i === 4) return;
+    if (i >= word.length || i === 5) return;
 
     const front = cube.querySelector('.front');
     const back = cube.querySelector('.back');
